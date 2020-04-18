@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+    int x,y;
+    printf("\nPlease Enter a Number (x): ");
+    scanf("%d",&x);
+    printf("\nPlease Enter a Number (Y): ");
+    scanf("%d",&y);
+    printf("\n\nValues Before Swapping\n x=[%d]\n y=[%d]",x,y);
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    printf("\n\nValues After Swapping\n x=[%d]\n y=[%d]",x,y);
+    getch();
+}
